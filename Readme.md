@@ -9,7 +9,7 @@
 ```javascript
 import adCell from '@/component/ADCell/ADCell.vue';
 export default {
-    components: {uniList,uniListItem}
+    components: {adCell}
 }
 ```
 通过npm安装的在 script 中引用组件
@@ -17,7 +17,7 @@ export default {
 ```javascript
 import adCell from '@/node_modules/adcell/ADCell.vue';
 export default {
-    components: {uniList,uniListItem}
+    components: {adCell}
 }
 ```
 在 template 中使用组件
