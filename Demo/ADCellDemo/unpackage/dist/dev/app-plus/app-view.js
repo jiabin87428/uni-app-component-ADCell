@@ -1081,6 +1081,7 @@ Z([[2,'!='],[[7],[3,'icon']],[1,'']])
 Z([3,'icon'])
 Z([3,'aspectFit'])
 Z([[7],[3,'icon']])
+Z([[2,'!='],[[7],[3,'text']],[1,'']])
 Z([3,'headView'])
 Z([3,'textView'])
 Z([[2,'+'],[[2,'+'],[1,'color:'],[[7],[3,'textColor']]],[1,';']])
@@ -1099,24 +1100,24 @@ Z([3,'detailView2'])
 Z([[2,'+'],[[2,'+'],[1,'color:'],[[7],[3,'noteColor']]],[1,';']])
 Z([a,[[7],[3,'note']]])
 Z([[2,'&&'],[[2,'!='],[[7],[3,'note1']],[1,null]],[[2,'!='],[[7],[3,'note1']],[1,'']]])
-Z(z[34])
 Z(z[35])
+Z(z[36])
 Z([a,[[7],[3,'note1']]])
 Z([[2,'&&'],[[2,'!='],[[7],[3,'note2']],[1,null]],[[2,'!='],[[7],[3,'note2']],[1,'']]])
-Z(z[34])
 Z(z[35])
+Z(z[36])
 Z([a,[[7],[3,'note2']]])
 Z([[2,'&&'],[[2,'!='],[[7],[3,'note3']],[1,null]],[[2,'!='],[[7],[3,'note3']],[1,'']]])
-Z(z[34])
 Z(z[35])
+Z(z[36])
 Z([a,[[7],[3,'note3']]])
 Z([[2,'&&'],[[2,'!='],[[7],[3,'note4']],[1,null]],[[2,'!='],[[7],[3,'note4']],[1,'']]])
-Z(z[34])
 Z(z[35])
+Z(z[36])
 Z([a,[[7],[3,'note4']]])
 Z([[2,'&&'],[[2,'!='],[[7],[3,'note5']],[1,null]],[[2,'!='],[[7],[3,'note5']],[1,'']]])
-Z(z[34])
 Z(z[35])
+Z(z[36])
 Z([a,[[7],[3,'note5']]])
 Z([3,'bottomLine'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
@@ -1257,98 +1258,103 @@ _rz(z,lK,'class',15,e,s,gg)
 var aL=_v()
 _(lK,aL)
 if(_oz(z,16,e,s,gg)){aL.wxVkey=1
-var bO=_mz(z,'image',['class',17,'mode',1,'src',2],[],e,s,gg)
-_(aL,bO)
+var oP=_mz(z,'image',['class',17,'mode',1,'src',2],[],e,s,gg)
+_(aL,oP)
 }
-var oP=_n('view')
-_rz(z,oP,'class',20,e,s,gg)
-var oR=_mz(z,'view',['class',21,'style',1],[],e,s,gg)
-var fS=_oz(z,23,e,s,gg)
-_(oR,fS)
-_(oP,oR)
-var xQ=_v()
-_(oP,xQ)
-if(_oz(z,24,e,s,gg)){xQ.wxVkey=1
-var cT=_n('view')
-_rz(z,cT,'class',25,e,s,gg)
-var hU=_oz(z,26,e,s,gg)
-_(cT,hU)
-_(xQ,cT)
-}
-xQ.wxXCkey=1
-_(lK,oP)
 var tM=_v()
 _(lK,tM)
-if(_oz(z,27,e,s,gg)){tM.wxVkey=1
-var oV=_mz(z,'view',['class',28,'style',1],[],e,s,gg)
-var cW=_oz(z,30,e,s,gg)
-_(oV,cW)
-_(tM,oV)
+if(_oz(z,20,e,s,gg)){tM.wxVkey=1
+var xQ=_n('view')
+_rz(z,xQ,'class',21,e,s,gg)
+var fS=_mz(z,'view',['class',22,'style',1],[],e,s,gg)
+var cT=_oz(z,24,e,s,gg)
+_(fS,cT)
+_(xQ,fS)
+var oR=_v()
+_(xQ,oR)
+if(_oz(z,25,e,s,gg)){oR.wxVkey=1
+var hU=_n('view')
+_rz(z,hU,'class',26,e,s,gg)
+var oV=_oz(z,27,e,s,gg)
+_(hU,oV)
+_(oR,hU)
 }
-var oX=_n('slot')
-_(lK,oX)
+oR.wxXCkey=1
+_(tM,xQ)
+}
 var eN=_v()
 _(lK,eN)
-if(_oz(z,31,e,s,gg)){eN.wxVkey=1
-var lY=_n('view')
-_rz(z,lY,'class',32,e,s,gg)
-_(eN,lY)
+if(_oz(z,28,e,s,gg)){eN.wxVkey=1
+var cW=_mz(z,'view',['class',29,'style',1],[],e,s,gg)
+var oX=_oz(z,31,e,s,gg)
+_(cW,oX)
+_(eN,cW)
+}
+var lY=_n('slot')
+_(lK,lY)
+var bO=_v()
+_(lK,bO)
+if(_oz(z,32,e,s,gg)){bO.wxVkey=1
+var aZ=_n('view')
+_rz(z,aZ,'class',33,e,s,gg)
+_(bO,aZ)
 }
 aL.wxXCkey=1
 tM.wxXCkey=1
 eN.wxXCkey=1
+bO.wxXCkey=1
 _(oD,lK)
 var fE=_v()
 _(oD,fE)
-if(_oz(z,33,e,s,gg)){fE.wxVkey=1
-var aZ=_mz(z,'view',['class',34,'style',1],[],e,s,gg)
-var t1=_oz(z,36,e,s,gg)
-_(aZ,t1)
-_(fE,aZ)
+if(_oz(z,34,e,s,gg)){fE.wxVkey=1
+var t1=_mz(z,'view',['class',35,'style',1],[],e,s,gg)
+var e2=_oz(z,37,e,s,gg)
+_(t1,e2)
+_(fE,t1)
 }
 var cF=_v()
 _(oD,cF)
-if(_oz(z,37,e,s,gg)){cF.wxVkey=1
-var e2=_mz(z,'view',['class',38,'style',1],[],e,s,gg)
-var b3=_oz(z,40,e,s,gg)
-_(e2,b3)
-_(cF,e2)
+if(_oz(z,38,e,s,gg)){cF.wxVkey=1
+var b3=_mz(z,'view',['class',39,'style',1],[],e,s,gg)
+var o4=_oz(z,41,e,s,gg)
+_(b3,o4)
+_(cF,b3)
 }
 var hG=_v()
 _(oD,hG)
-if(_oz(z,41,e,s,gg)){hG.wxVkey=1
-var o4=_mz(z,'view',['class',42,'style',1],[],e,s,gg)
-var x5=_oz(z,44,e,s,gg)
-_(o4,x5)
-_(hG,o4)
+if(_oz(z,42,e,s,gg)){hG.wxVkey=1
+var x5=_mz(z,'view',['class',43,'style',1],[],e,s,gg)
+var o6=_oz(z,45,e,s,gg)
+_(x5,o6)
+_(hG,x5)
 }
 var oH=_v()
 _(oD,oH)
-if(_oz(z,45,e,s,gg)){oH.wxVkey=1
-var o6=_mz(z,'view',['class',46,'style',1],[],e,s,gg)
-var f7=_oz(z,48,e,s,gg)
-_(o6,f7)
-_(oH,o6)
+if(_oz(z,46,e,s,gg)){oH.wxVkey=1
+var f7=_mz(z,'view',['class',47,'style',1],[],e,s,gg)
+var c8=_oz(z,49,e,s,gg)
+_(f7,c8)
+_(oH,f7)
 }
 var cI=_v()
 _(oD,cI)
-if(_oz(z,49,e,s,gg)){cI.wxVkey=1
-var c8=_mz(z,'view',['class',50,'style',1],[],e,s,gg)
-var h9=_oz(z,52,e,s,gg)
-_(c8,h9)
-_(cI,c8)
+if(_oz(z,50,e,s,gg)){cI.wxVkey=1
+var h9=_mz(z,'view',['class',51,'style',1],[],e,s,gg)
+var o0=_oz(z,53,e,s,gg)
+_(h9,o0)
+_(cI,h9)
 }
 var oJ=_v()
 _(oD,oJ)
-if(_oz(z,53,e,s,gg)){oJ.wxVkey=1
-var o0=_mz(z,'view',['class',54,'style',1],[],e,s,gg)
-var cAB=_oz(z,56,e,s,gg)
-_(o0,cAB)
-_(oJ,o0)
+if(_oz(z,54,e,s,gg)){oJ.wxVkey=1
+var cAB=_mz(z,'view',['class',55,'style',1],[],e,s,gg)
+var oBB=_oz(z,57,e,s,gg)
+_(cAB,oBB)
+_(oJ,cAB)
 }
-var oBB=_n('view')
-_rz(z,oBB,'class',57,e,s,gg)
-_(oD,oBB)
+var lCB=_n('view')
+_rz(z,lCB,'class',58,e,s,gg)
+_(oD,lCB)
 fE.wxXCkey=1
 cF.wxXCkey=1
 hG.wxXCkey=1
@@ -1364,83 +1370,83 @@ e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var aDB=_n('view')
-_rz(z,aDB,'class',0,e,s,gg)
 var tEB=_n('view')
-_rz(z,tEB,'class',1,e,s,gg)
-var eFB=_mz(z,'view',['bindchange',2,'bindtouchend',1,'bindtouchmove',2,'bindtouchstart',3,'change:prop',4,'class',5,'data-disabled',6,'data-event-opts',7,'data-position',8,'prop',9],[],e,s,gg)
-var bGB=_n('view')
-_rz(z,bGB,'class',12,e,s,gg)
-var oHB=_n('slot')
+_rz(z,tEB,'class',0,e,s,gg)
+var eFB=_n('view')
+_rz(z,eFB,'class',1,e,s,gg)
+var bGB=_mz(z,'view',['bindchange',2,'bindtouchend',1,'bindtouchmove',2,'bindtouchstart',3,'change:prop',4,'class',5,'data-disabled',6,'data-event-opts',7,'data-position',8,'prop',9],[],e,s,gg)
+var oHB=_n('view')
+_rz(z,oHB,'class',12,e,s,gg)
+var xIB=_n('slot')
+_(oHB,xIB)
 _(bGB,oHB)
-_(eFB,bGB)
-var xIB=_mz(z,'view',['class',13,'data-ref',1],[],e,s,gg)
-var oJB=_v()
-_(xIB,oJB)
-var fKB=function(hMB,cLB,oNB,gg){
-var oPB=_mz(z,'view',['catchtap',19,'class',1,'data-button',2,'data-event-opts',3,'style',4],[],hMB,cLB,gg)
-var lQB=_mz(z,'text',['class',24,'style',1],[],hMB,cLB,gg)
-var aRB=_oz(z,26,hMB,cLB,gg)
+var oJB=_mz(z,'view',['class',13,'data-ref',1],[],e,s,gg)
+var fKB=_v()
+_(oJB,fKB)
+var cLB=function(oNB,hMB,cOB,gg){
+var lQB=_mz(z,'view',['catchtap',19,'class',1,'data-button',2,'data-event-opts',3,'style',4],[],oNB,hMB,gg)
+var aRB=_mz(z,'text',['class',24,'style',1],[],oNB,hMB,gg)
+var tSB=_oz(z,26,oNB,hMB,gg)
+_(aRB,tSB)
 _(lQB,aRB)
-_(oPB,lQB)
-_(oNB,oPB)
-return oNB
+_(cOB,lQB)
+return cOB
 }
-oJB.wxXCkey=2
-_2z(z,17,fKB,e,s,gg,oJB,'item','index','index')
-_(eFB,xIB)
+fKB.wxXCkey=2
+_2z(z,17,cLB,e,s,gg,fKB,'item','index','index')
+_(bGB,oJB)
+_(eFB,bGB)
 _(tEB,eFB)
-_(aDB,tEB)
-_(r,aDB)
+_(r,tEB)
 return r
 }
 e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var eTB=_n('view')
-var bUB=_n('slot')
-_(eTB,bUB)
-_(r,eTB)
+var bUB=_n('view')
+var oVB=_n('slot')
+_(bUB,oVB)
+_(r,bUB)
 return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var xWB=_n('view')
-_rz(z,xWB,'class',0,e,s,gg)
-var oXB=_mz(z,'ad-cell',['bind:__l',1,'text',1,'vueId',2],[],e,s,gg)
-_(xWB,oXB)
-var fYB=_mz(z,'ad-cell',['bind:__l',4,'bind:click',1,'data-event-opts',2,'text',3,'vueId',4],[],e,s,gg)
-_(xWB,fYB)
-var cZB=_mz(z,'ad-cell',['bind:__l',9,'showArrow',1,'text',2,'vueId',3],[],e,s,gg)
-_(xWB,cZB)
-var h1B=_mz(z,'ad-cell',['bind:__l',13,'icon',1,'text',2,'vueId',3],[],e,s,gg)
-_(xWB,h1B)
-var o2B=_mz(z,'ad-cell',['bind:__l',17,'bind:swipeChange',1,'bind:swipeClick',2,'data-event-opts',3,'swipeOptions',4,'text',5,'vueId',6],[],e,s,gg)
-_(xWB,o2B)
-var c3B=_mz(z,'ad-cell',['bind:__l',24,'detail',1,'text',2,'vueId',3],[],e,s,gg)
-_(xWB,c3B)
-var o4B=_mz(z,'ad-cell',['bind:__l',28,'note',1,'text',2,'vueId',3,'vueSlots',4],[],e,s,gg)
-var l5B=_mz(z,'view',['bindtap',33,'class',1,'data-event-opts',2],[],e,s,gg)
-var a6B=_oz(z,36,e,s,gg)
+var oXB=_n('view')
+_rz(z,oXB,'class',0,e,s,gg)
+var fYB=_mz(z,'ad-cell',['bind:__l',1,'text',1,'vueId',2],[],e,s,gg)
+_(oXB,fYB)
+var cZB=_mz(z,'ad-cell',['bind:__l',4,'bind:click',1,'data-event-opts',2,'text',3,'vueId',4],[],e,s,gg)
+_(oXB,cZB)
+var h1B=_mz(z,'ad-cell',['bind:__l',9,'showArrow',1,'text',2,'vueId',3],[],e,s,gg)
+_(oXB,h1B)
+var o2B=_mz(z,'ad-cell',['bind:__l',13,'icon',1,'text',2,'vueId',3],[],e,s,gg)
+_(oXB,o2B)
+var c3B=_mz(z,'ad-cell',['bind:__l',17,'bind:swipeChange',1,'bind:swipeClick',2,'data-event-opts',3,'swipeOptions',4,'text',5,'vueId',6],[],e,s,gg)
+_(oXB,c3B)
+var o4B=_mz(z,'ad-cell',['bind:__l',24,'detail',1,'text',2,'vueId',3],[],e,s,gg)
+_(oXB,o4B)
+var l5B=_mz(z,'ad-cell',['bind:__l',28,'note',1,'text',2,'vueId',3,'vueSlots',4],[],e,s,gg)
+var a6B=_mz(z,'view',['bindtap',33,'class',1,'data-event-opts',2],[],e,s,gg)
+var t7B=_oz(z,36,e,s,gg)
+_(a6B,t7B)
 _(l5B,a6B)
-_(o4B,l5B)
-_(xWB,o4B)
-var t7B=_mz(z,'ad-cell',['bind:__l',37,'text',1,'vueId',2],[],e,s,gg)
-_(xWB,t7B)
-var e8B=_mz(z,'ad-cell',['bind:__l',40,'detail',1,'vueId',2],[],e,s,gg)
-_(xWB,e8B)
-var b9B=_mz(z,'ad-cell',['bind:__l',43,'detail',1,'text',2,'vueId',3],[],e,s,gg)
-_(xWB,b9B)
-var o0B=_mz(z,'ad-cell',['bind:__l',47,'detail',1,'mustInput',2,'text',3,'vueId',4],[],e,s,gg)
-_(xWB,o0B)
-var xAC=_mz(z,'ad-cell',['bind:__l',52,'detail',1,'note',2,'note1',3,'note2',4,'note3',5,'note4',6,'note5',7,'text',8,'vueId',9],[],e,s,gg)
-_(xWB,xAC)
-var oBC=_mz(z,'ad-cell',['bind:__l',62,'detail',1,'note',2,'note1',3,'swipeOptions',4,'text',5,'vueId',6],[],e,s,gg)
-_(xWB,oBC)
-_(r,xWB)
+_(oXB,l5B)
+var e8B=_mz(z,'ad-cell',['bind:__l',37,'text',1,'vueId',2],[],e,s,gg)
+_(oXB,e8B)
+var b9B=_mz(z,'ad-cell',['bind:__l',40,'detail',1,'vueId',2],[],e,s,gg)
+_(oXB,b9B)
+var o0B=_mz(z,'ad-cell',['bind:__l',43,'detail',1,'text',2,'vueId',3],[],e,s,gg)
+_(oXB,o0B)
+var xAC=_mz(z,'ad-cell',['bind:__l',47,'detail',1,'mustInput',2,'text',3,'vueId',4],[],e,s,gg)
+_(oXB,xAC)
+var oBC=_mz(z,'ad-cell',['bind:__l',52,'detail',1,'note',2,'note1',3,'note2',4,'note3',5,'note4',6,'note5',7,'text',8,'vueId',9],[],e,s,gg)
+_(oXB,oBC)
+var fCC=_mz(z,'ad-cell',['bind:__l',62,'detail',1,'note',2,'note1',3,'swipeOptions',4,'text',5,'vueId',6],[],e,s,gg)
+_(oXB,fCC)
+_(r,oXB)
 return r
 }
 e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
@@ -1568,7 +1574,7 @@ setCssToHead([])();setCssToHead([[2,0]],undefined,{path:"./app.wxss"})();
 __wxAppCode__['app.wxss']=setCssToHead([[2,0]],undefined,{path:"./app.wxss"});    
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
-__wxAppCode__['component/ADCell/ADCell.wxss']=setCssToHead(["@font-face { font-family: \x27iconfont\x27; src: url(data:font/ttf;base64,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) format(\x27truetype\x27); }\n.",[1],"iconfont { font-family: \x22iconfont\x22; font-size: 20px; color: #BBBBBB; font-weight: normal; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\n.",[1],"arrowView:before { content: \x22\\E64A\x22; }\n.",[1],"adBaseView { width: 100%; background-color: #FFFFFF; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding-top: ",[0,30],"; }\n.",[1],"baseViewHover { background-color: #F3F3F3; }\n.",[1],"adRowView { width: calc(100% - ",[0,48],"); display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"headView { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; text-align: left; font-size: ",[0,28],"; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"textView { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; text-align: left; font-size: ",[0,28],"; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; }\n.",[1],"mustView { color: red; font-size: ",[0,32],"; margin-left: ",[0,10],"; }\n.",[1],"detailView1 { -webkit-box-flex: 2; -webkit-flex: 2; -ms-flex: 2; flex: 2; text-align: right; font-size: ",[0,28],"; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; }\n.",[1],"detailView2 { width: calc(100% - ",[0,48],"); text-align: left; font-size: ",[0,28],"; word-wrap: break-word; word-break: normal; margin-top: ",[0,12],"; }\n.",[1],"bottomLine { width: 95%; height: ",[0,1],"; background-color: #DDDDDD; margin-top: ",[0,30],"; }\n.",[1],"icon { width: ",[0,38],"; height: ",[0,38],"; margin-right: ",[0,10],"; }\n",],undefined,{path:"./component/ADCell/ADCell.wxss"});    
+__wxAppCode__['component/ADCell/ADCell.wxss']=setCssToHead(["@font-face { font-family: \x27iconfont\x27; src: url(data:font/ttf;base64,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) format(\x27truetype\x27); }\n.",[1],"iconfont { font-family: \x22iconfont\x22; font-size: 20px; color: #BBBBBB; font-weight: normal; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\n.",[1],"arrowView:before { content: \x22\\E64A\x22; }\n.",[1],"adBaseView { width: 100%; background-color: #FFFFFF; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding-top: ",[0,30],"; }\n.",[1],"baseViewHover { background-color: #F3F3F3; }\n.",[1],"adRowView { width: calc(100% - ",[0,48],"); display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"headView { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; text-align: left; font-size: ",[0,28],"; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"textView { text-align: left; font-size: ",[0,28],"; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; }\n.",[1],"mustView { color: red; font-size: ",[0,32],"; margin-left: ",[0,10],"; }\n.",[1],"detailView1 { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; text-align: right; font-size: ",[0,28],"; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis; }\n.",[1],"detailView2 { width: calc(100% - ",[0,48],"); text-align: left; font-size: ",[0,28],"; word-wrap: break-word; word-break: normal; margin-top: ",[0,12],"; }\n.",[1],"bottomLine { width: 95%; height: ",[0,1],"; background-color: #DDDDDD; margin-top: ",[0,30],"; }\n.",[1],"icon { width: ",[0,38],"; height: ",[0,38],"; margin-right: ",[0,10],"; }\n",],undefined,{path:"./component/ADCell/ADCell.wxss"});    
 __wxAppCode__['component/ADCell/ADCell.wxml']=$gwx('./component/ADCell/ADCell.wxml');
 
 __wxAppCode__['component/ADCell/swipe-action/uni-swipe-action-item/uni-swipe-action-item.wxss']=setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"uni-swipe.",[1],"data-v-2258740a { overflow: hidden; }\n.",[1],"uni-swipe_content.",[1],"data-v-2258740a { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; position: relative; }\n.",[1],"uni-swipe_move-box.",[1],"data-v-2258740a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; position: relative; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }\n.",[1],"uni-swipe_box.",[1],"data-v-2258740a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; width: 100%; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; font-size: 14px; background-color: #fff; }\n.",[1],"uni-swipe_button-group.",[1],"data-v-2258740a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }\n.",[1],"uni-swipe_button.",[1],"data-v-2258740a { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 0 20px; }\n.",[1],"uni-swipe_button-text.",[1],"data-v-2258740a { -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; font-size: 14px; }\n.",[1],"ani.",[1],"data-v-2258740a { -webkit-transition-property: -webkit-transform; transition-property: -webkit-transform; -o-transition-property: transform; transition-property: transform; transition-property: transform, -webkit-transform; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); -o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }\n",],undefined,{path:"./component/ADCell/swipe-action/uni-swipe-action-item/uni-swipe-action-item.wxss"});    

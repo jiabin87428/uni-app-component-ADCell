@@ -4,7 +4,7 @@
 	        <view class="adBaseView" hover-class="baseViewHover" :style="{backgroundColor:backgroundColor}" @click="onClick">
 	        	<view class="adRowView">
 	        		<image class="icon" :src="icon" mode="aspectFit" v-if="icon != ''"></image>
-	        		<view class="headView">
+	        		<view class="headView" v-if="text != ''">
 	        			<view class="textView" :style="{color:textColor}">{{text}}</view>
 	        			<view class="mustView" v-if="mustInput === true || mustInput === 'true'">*</view>
 	        		</view>
@@ -152,7 +152,6 @@
 		align-items: center;
 	}
 	.textView {
-		flex: 1;
 		text-align: left;
 		/* margin-left: 30upx; */
 		font-size: 28upx;
@@ -168,7 +167,7 @@
 	}
 	
 	.detailView1 {
-		flex: 2;
+		flex: 1;
 		text-align: right;
 		font-size: 28upx;
 		overflow:hidden; /*超出的部分隐藏起来。*/ 
