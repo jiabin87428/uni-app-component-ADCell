@@ -1,3 +1,5 @@
+#####说明：左滑的效果引用了[SwipeAction 滑动操作](https://ext.dcloud.net.cn/plugin?id=181)插件。
+#####非常感谢作者：[DCloud](https://ext.dcloud.net.cn/publisher?id=93)
 ### 获取方式
 - 直接在插件市场下载
 - 通过npm安装：npm i adcell
