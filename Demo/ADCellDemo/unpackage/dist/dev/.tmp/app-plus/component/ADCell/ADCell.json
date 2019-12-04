@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "uni-swipe-action": "/component/ADCell/swipe-action/uni-swipe-action/uni-swipe-action",
-    "uni-swipe-action-item": "/component/ADCell/swipe-action/uni-swipe-action-item/uni-swipe-action-item"
-  },
-  "component": true
-}

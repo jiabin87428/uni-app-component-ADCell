@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "ADCell-Demo",
-  "usingComponents": {
-    "ad-cell": "/component/ADCell/ADCell"
-  }
-}

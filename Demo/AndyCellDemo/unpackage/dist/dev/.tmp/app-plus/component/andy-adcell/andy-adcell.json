@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-swipe-action": "/component/swipe-action/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/component/swipe-action/uni-swipe-action-item/uni-swipe-action-item"
+  },
+  "component": true
+}
